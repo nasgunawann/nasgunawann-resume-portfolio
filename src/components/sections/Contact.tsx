@@ -11,13 +11,13 @@ export default function Contact() {
       }}
     >
       <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-400 drop-shadow-[0_0_12px_#ffdf20] text-center">
-        LET'S BUILD SOMETHING COOL!
+        SAY HELLO!
       </h2>
 
       <p className="text-white/80 text-lg max-w-2xl text-center leading-relaxed">
-        Have an idea in mind, need a website, or just want to collaborate? I’m
-        open to freelance projects, creative partnerships, and new
-        opportunities. Let’s make it happen together.
+        Have an idea in mind, need a website, or want to collaborate? I’m open
+        to freelance projects, creative partnerships, and new opportunities.
+        Let’s make it happen together.
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 mt-4 text-center">
@@ -32,31 +32,6 @@ export default function Contact() {
           className="inline-block border border-yellow-400 text-yellow-400 font-semibold px-8 py-4 rounded-full hover:bg-yellow-400/20 transition-all duration-300"
         >
           Get My Resume
-        </a>
-      </div>
-
-      <div className=" flex flex-wrap justify-center gap-6 text-white/60 text-m">
-        <a
-          href="https://github.com/nasgunawann"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-yellow-300 transition duration-200"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://linkedin.com/in/nasgunawan"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-yellow-300 transition duration-200"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://instagram.com/nasgunawann"
-          className="hover:text-yellow-300 transition duration-200"
-        >
-          Instagram
         </a>
       </div>
 
