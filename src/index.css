@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "@hackernoon/pixel-icon-library/fonts/iconfont.css";
+@import "@fontsource/press-start-2p/400.css";
+
+@font-face {
+  font-family: "Open Sans PX";
+  src: url("../src/assets/fonts/OpenSansPX.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  size-adjust: 125%;
+}
+
+@layer base {
+  html {
+    font-family: "Open Sans PX", sans-serif;
+  }
+  header {
+    font-family: "Press Start 2P", serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Press Start 2P", serif;
+  }
+}
+.pixel-card {
+  background: #1a1a1a;
+  padding: 16px;
+  border: 4px solid #fff;
+  outline: 2px solid #222;
+  box-shadow: inset 0 0 0 1px #ccc;
+  font-family: "Press Start 2P", monospace;
+}
