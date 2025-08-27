@@ -28,7 +28,7 @@ export default function Contact() {
           Contact Me
         </a>
         <a
-          href="mailto:nasgunawann@gmail.com"
+          href="/Nasrullah-Gunawan_Resume.pdf"
           className="inline-block border border-yellow-400 text-yellow-400 font-semibold px-8 py-4 rounded-full hover:bg-yellow-400/20 transition-all duration-300"
         >
           Get My Resume
